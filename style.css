@@ -345,7 +345,7 @@ button2:hover{
     justify-content: center;
     flex-shrink: 0;
     border-radius: 60px;
-    background: linear-gradient(90deg, #E5C7CE 0%, #EDD5D1 35.50%, #F3DED3 100%);  
+    background: linear-gradient(90deg, #C6DAEC 0%, #DDD2DF 100%);    
     position: relative;
 }
 
