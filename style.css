@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    font-family: 'Kollektif', lora;
+    font-family: 'Futura', lora;
     box-sizing: border-box;
 }
 
@@ -83,10 +83,6 @@ nav ul li .nav-link::after {
     transition: 0.5s;
 }
 
-nav ul li .nav-link:hover::after {
-    width: 100%;
-}
-
 .header-text{
     margin-top: 20%;
     font-size: 30px;
@@ -128,7 +124,7 @@ button{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-family: "Kollektif", lora;
+    font-family: "Futura", lora;
     font-size: 20px;
     transition: box-shadow 0.3s ease;
 }
@@ -419,7 +415,7 @@ p2 {
     margin-top: 40px;
 }
 
-.seemore-container{
+/* .seemore-container{
     justify-content: center;
     text-align: center;
     margin-top: 20px;
@@ -434,7 +430,7 @@ p2 {
 .seemore:hover {
     text-decoration: underline;
     color: #D0948E;
-}
+} */
 
 p3{
     color: #2d2e2e;
