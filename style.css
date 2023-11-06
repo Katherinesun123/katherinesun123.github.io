@@ -57,7 +57,15 @@ nav ul li a{
     color:#2d2e2e;
     font-size: 18px;
     position: relative;
-    border-bottom: none; 
+    border-bottom: 1px solid transparent;
+}
+
+/* nav ul li a:hover{
+    border-color: #D0948E;
+} */
+
+nav ul li a:hover::after{
+    width: 100%;
 }
 
 nav ul li a::after{
@@ -65,14 +73,14 @@ nav ul li a::after{
     width: 0%;
     height: 3px;
     background: #D0948E;
-    position:absolute;
-    text-decoration: none;
+    position: absolute;
+    text-decoration: underline;
     left: 0;
     bottom: -6px;
     transition: 0.5s;
 }
 
-nav ul li .nav-link::after {
+nav ul li a .nav-link::after {
     content: '';
     width: 0%;
     height: 3px;
@@ -158,6 +166,7 @@ button:hover{
     border-radius: 60px;
     background: linear-gradient(90deg, #E5C7CE 0%, #EDD5D1 35.50%, #F3DED3 100%);
     position: relative;
+    transition: 0.25s;
 }
 
 .box img{
@@ -246,6 +255,7 @@ button1:hover{
     border-radius: 60px;
     background: linear-gradient(90deg, #C6DAEC 0%, #DDD2DF 100%);    
     position: relative;
+    transition: 0.25s;
 }
 
 .box1 img{
@@ -343,6 +353,7 @@ button2:hover{
     border-radius: 60px;
     background: linear-gradient(90deg, #C6DAEC 0%, #DDD2DF 100%);    
     position: relative;
+    transition: 0.25s;
 }
 
 .box2 img{
