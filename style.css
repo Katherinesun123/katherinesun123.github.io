@@ -9,6 +9,12 @@ body{
     color:#2d2e2e;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+ }
+
 #header{
     width: 100%;
     height: 100vh;
@@ -324,10 +330,10 @@ button2:hover{
 }
 
 .container4{
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Horizontally center the box */
-    align-items: center; /* Vertically center the box */
-    height: 80vh; /* Set the coxsntainer height to full viewport height */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 80vh; 
 }
 
 .box2:hover {
@@ -426,7 +432,7 @@ p2 {
     margin-top: 40px;
 }
 
-/* .seemore-container{
+.seemore-container{
     justify-content: center;
     text-align: center;
     margin-top: 20px;
@@ -441,7 +447,7 @@ p2 {
 .seemore:hover {
     text-decoration: underline;
     color: #D0948E;
-} */
+}
 
 p3{
     color: #2d2e2e;
