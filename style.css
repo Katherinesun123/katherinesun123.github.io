@@ -204,11 +204,11 @@ button:hover{
 }
 
 .box-text p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
     font-size: 24px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
     margin-left: 3px;
 }
@@ -231,6 +231,7 @@ button1{
     border-radius: 30px;
     border: 2.5px solid #2D2E2E;
     margin-left: 680px;
+    margin-top: 60px;
     font-size: 20px;
 }
 
@@ -293,11 +294,11 @@ button1:hover{
 }
 
 .box-text1 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
     font-size: 24px;
-    font-style: italic;
-    font-weight: 400;
+    color: #8d8d8d;
+    font-weight: lighter;
     line-height: normal;
     margin-left: 3px;
 }
@@ -391,11 +392,11 @@ button2:hover{
 }
 
 .box-text2 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
     font-size: 24px;
-    font-style: italic;
-    font-weight: 400;
+    color: #8d8d8d;
+    font-weight: lighter;
     line-height: normal;
     margin-left: 3px;
 }
@@ -620,4 +621,9 @@ p3{
     line-height: normal;
     margin-top: 200px;
     margin-left: 80px;
+}
+
+.hover-effect:hover {
+    transform: translateY(-3px); /* Move the image up by 3 pixels on hover */
+    filter: brightness(1.2); /* Increase brightness on hover */
 }
