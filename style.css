@@ -18,7 +18,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/Background.png);
+    margin-top: 5%;
     background-size: cover;
     background-position: center;
 }
@@ -99,6 +99,7 @@ nav ul li a .nav-link::after {
 
 .header-text{
     margin-top: 20%;
+    margin-bottom: 20%;
     font-size: 30px;
     font-weight: lighter;
     padding-left: 5%;
@@ -110,6 +111,7 @@ nav ul li a .nav-link::after {
     margin-top: 20px;
     font-family: lora;
     font-weight: lighter;
+    transition: transform 0.3s, color 0.3s;
 }
 
 .header-text h1 span{
@@ -119,6 +121,11 @@ nav ul li a .nav-link::after {
     font-weight: bold;
 }
 
+.header-text h1:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+    color: #D0948E; /* Change the text color on hover */
+}
+
 .header-text h2{
     color: #2D2E2E;
     font-family: Futura;
@@ -126,6 +133,7 @@ nav ul li a .nav-link::after {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 60px;
     width: 605px;
 }
 
@@ -207,7 +215,7 @@ button:hover{
     font-size: 14px;
     line-height: 1.6;
     font-size: 24px;
-    font-style: italic;
+    color: #8d8d8d;
     font-weight: lighter;
     line-height: normal;
     margin-left: 3px;
@@ -321,6 +329,7 @@ button2{
     border-radius: 30px;
     border: 2.5px solid #2D2E2E;
     margin-left: 680px;
+    margin-top: 60px;
     font-size: 20px;
 }
 
@@ -436,16 +445,30 @@ p2 {
 .seemore-container{
     justify-content: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .seemore {
+    display: block;
     color: #2d2e2e;
     font-size: 24px; 
-    font-family: 'Kollektif';
+    font-family: 'Futura';
 }
 
 .seemore:hover {
+    text-decoration: underline;
+    color: #D0948E;
+}
+
+.enter{
+    display: block;
+    color: #2d2e2e;
+    margin-top: 10%;
+    font-size: 20px; 
+    font-family: 'Futura';
+}
+
+.enter:hover {
     text-decoration: underline;
     color: #D0948E;
 }
@@ -460,28 +483,33 @@ p3{
     width: 782px;
 }
 
-.footer img{
+.footer img {
     width: 20px;
     height: 20px;
     padding-left: 80px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.footer-image:hover {
+    content: url('images/change.png');
 }
 
 .footer-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align the content to the left */
+    align-items: flex-start; 
 }
 
 .image-container {
     display: flex;
     align-items: center;
-    justify-content: left; /* Align the images to the left */
+    justify-content: left; 
     margin-top: 20px;
 }
 
 .footer-image {
     float: right;
-    margin-top: -253px; /* Adjust this value to move the image up or down */
+    margin-top: -253px; 
 }
 
 #content-wrapper {
