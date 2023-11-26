@@ -11,6 +11,73 @@
         html {
             scroll-behavior: smooth; 
         }
+
+        body {
+            font-size: 16px; /* Set a base font size for better readability on mobile devices */
+        }
+
+        /* Add a media query for smaller screens */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column; /* Stack navigation links vertically on smaller screens */
+                text-align: center; /* Center-align the navigation links */
+            }
+
+            nav ul li {
+                margin: 10px 0; /* Add some margin to separate navigation links on smaller screens */
+            }
+
+            .header-text {
+                margin-top: 10%; /* Adjust the margin on smaller screens */
+                margin-bottom: 10%; /* Adjust the margin on smaller screens */
+                font-size: 20px; /* Adjust the font size on smaller screens */
+            }
+
+            .header-text h1 {
+                font-size: 40px; /* Adjust the font size on smaller screens */
+            }
+
+            .header-text h2 {
+                font-size: 16px; /* Adjust the font size on smaller screens */
+            }
+
+            .container2 {
+                height: auto; /* Remove fixed height for better responsiveness */
+                margin-bottom: 20px; /* Add some margin between containers on smaller screens */
+            }
+
+            .box,
+            .box1,
+            .box2 {
+                width: 100%; /* Make the boxes full width on smaller screens */
+            }
+
+            .box img,
+            .box1 img,
+            .box2 img {
+                width: 100%; /* Make images within the boxes full width on smaller screens */
+                left: 0; /* Center the images within the boxes on smaller screens */
+                margin: 0; /* Remove margin on smaller screens */
+            }
+
+            .box-text,
+            .box-text1,
+            .box-text2 {
+                margin: 20px 0; /* Add some margin between text and images on smaller screens */
+                text-align: center; /* Center-align the text within the boxes on smaller screens */
+            }
+
+            button,
+            button1,
+            button2,
+            button3 {
+                margin-left: 0; /* Remove margin on smaller screens */
+            }
+
+            footer {
+                padding: 20px; /* Adjust the padding on smaller screens */
+            }
+        }
     </style>
 </head>
 <body>
