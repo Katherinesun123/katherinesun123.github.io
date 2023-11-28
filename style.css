@@ -337,9 +337,9 @@ button:hover{
 .box-text p {
     font-size: 14px;
     line-height: 1.6;
-    font-size: 24px;
-    color: #8d8d8d;
-    font-weight: lighter;
+    font-size: 20px;
+    color: #504e4e;
+    font-weight:100;
     line-height: normal;
     margin-left: 3px;
 }
@@ -427,9 +427,9 @@ button1:hover{
 .box-text1 p {
     font-size: 14px;
     line-height: 1.6;
-    font-size: 24px;
-    color: #8d8d8d;
-    font-weight: lighter;
+    font-size: 20px;
+    color: #504e4e;
+    font-weight:100;
     line-height: normal;
     margin-left: 3px;
 }
