@@ -1,3 +1,131 @@
+* {
+    padding: 0;
+    font-family: 'Futura', lora;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F5F5;
+    color: #2d2e2e;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    #header {
+        height: 70vh;
+    }
+
+    .container {
+        padding: 5px 5%;
+    }
+
+    nav {
+        padding: 10px 5%;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        background-color: #f6f5f5;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .header-text {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .header-text h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .box, .box1, .box2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .box img, .box1 img, .box2 img {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .box-text, .box-text1, .box-text2 {
+        margin-left: 0;
+    }
+
+    button, button1, button2, button3 {
+        margin-left: 0;
+    }
+
+    .footer {
+        padding: 40px;
+    }
+
+    .footer img {
+        margin-left: 0;
+    }
+
+    #aboutbody {
+        margin-top: 100px;
+    }
+
+    #aboutbody img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .content-row {
+        flex-wrap: wrap;
+    }
+
+    .content-col {
+        flex: 100%;
+    }
+
+    #aboutbody h1 {
+        margin-left: 0;
+    }
+
+    .seemore-container {
+        margin-top: 20px;
+    }
+}
+
+/* The following media query is for desktop or larger screens */
+@media (min-width: 769px) {
+    /* No changes here - keep the desktop styles as they are */
+}
+
 *{
     padding: 0;
     font-family: 'Futura', lora;
@@ -9,11 +137,6 @@ body{
     color:#2d2e2e;
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
- }
 
 #header{
     width: 100%;
