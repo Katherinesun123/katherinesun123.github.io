@@ -12,6 +12,14 @@
             scroll-behavior: smooth; 
         }
     </style>
+
+    <script>
+        function toggleMenu() {
+            const navList = document.getElementById('nav-list');
+            navList.classList.toggle('show');
+        }
+    </script>
+
 </head>
 <body>
     <nav>
@@ -23,6 +31,13 @@
             <li><a class="nav-link" href="https://drive.google.com/file/d/18depnlAUBwpUfzxLBBskl2G8Ps2P530c/view?usp=sharing">Resume</a></li>
             <li><a class="nav-link" href="about.html">About</a></li>
         </ul>
+
+    <!-- Inside your <nav> element -->
+        <a href="#" class="menu-icon" id="nav-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
     </nav>
 <div id="header">
     <div class="container">
