@@ -25,15 +25,15 @@ body {
 @media (max-width: 768px) {
 
     .menu-icon {
-        display: block; /* Show the menu icon on smaller screens */
+        display: block; 
         position: absolute;
         top: 20px;
         right: 20px;
-        z-index: 101; /* Ensure it's above other elements */
+        z-index: 101; 
     }
 
     #nav-list {
-        display: none; /* Initially hide the navigation list on smaller screens */
+        display: none;
         flex-direction: column;
         align-items: center;
         position: absolute;
