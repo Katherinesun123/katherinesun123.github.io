@@ -5,12 +5,12 @@
 }
 
 body {
-    background: #F6F5F5;
+    background: #f2f2f2;
     color: #2d2e2e;
 }
 
 .menu-icon {
-    display: none; /* Initially hide the menu icon on larger screens */
+    display: none; 
     cursor: pointer;
 }
 
@@ -22,39 +22,15 @@ body {
     transition: 0.4s;
 }
 
-@media (max-width: 768px) {
+.navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+}
 
-    .menu-icon {
-        display: block; 
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        z-index: 101; 
-    }
+.navbar-brand:hover img {
+    transform: scale(1.08); 
+}
 
-    #nav-list {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background-color: #f6f5f5;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }
-
-    #nav-list.show {
-        display: flex; /* Show the navigation list when the menu icon is clicked */
-    }
-
-    #nav-list li {
-        margin: 10px 0;
-    }
-    
-    body {
-        font-size: 14px;
-    }
+@media screen and (max-width: 600px) {
 
     #header {
         height: 70vh;
@@ -68,9 +44,10 @@ body {
         padding: 10px 5%;
     }
 
-    .logo {
-        width: 60px;
-    }
+    .logo{
+        position: relative;
+        width: 20px !important;
+    }    
 
     nav ul {
         flex-direction: column;
@@ -100,37 +77,42 @@ body {
     }
 
     .header-text h1 {
-        font-size: 40px;
+        font-size: 36px;
+        line-height: 50px;
         margin-top: 10px;
     }
 
     .header-text h2 {
-        font-size: 18px;
+        font-size: 12px;
         margin-bottom: 30px;
-        width: 100%;
     }
 
-    .box, .box1, .box2 {
+    .box,
+    .box1,
+    .box2 {
         width: 100%;
         margin-left: 0;
     }
 
-    .box img, .box1 img, .box2 img {
+    .box img,
+    .box1 img,
+    .box2 img {
         width: 100%;
         left: 0;
         margin-left: 0;
     }
 
-    .box-text, .box-text1, .box-text2 {
+    .box-text,
+    .box-text1,
+    .box-text2 {
         margin-left: 0;
     }
 
-    button, button1, button2, button3 {
+    button,
+    button1,
+    button2,
+    button3 {
         margin-left: 0;
-    }
-
-    .footer {
-        padding: 40px;
     }
 
     .footer img {
@@ -162,55 +144,10 @@ body {
         margin-top: 20px;
     }
 
-    nav select {
-        display: block; /* Show the dropdown on mobile */
-        margin-top: 10px; /* Add some spacing */
-    }
-
-    /* Style the select element */
-    nav select {
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        padding: 10px;
-        border: 1px solid #2d2e2e;
-        background-color: #f6f5f5;
-        color: #2d2e2e;
-        cursor: pointer;
-    }
-
-    /* Style the dropdown arrow */
-    nav select::after {
-        content: '\25BC'; /* Unicode character for down arrow */
-        font-size: 1.5em;
-        color: #2d2e2e;
-        position: absolute;
-        top: 0;
-        right: 10px;
-    }
-
-    /* Style the options within the dropdown */
-    nav select option {
-        padding: 10px;
-    }
 }
 
-/* The following media query is for desktop or larger screens */
-@media (min-width: 769px) {
-    /* No changes here - keep the desktop styles as they are */
+@media screen and (min-width: 769) {
 }
-
-*{
-    padding: 0;
-    font-family: 'Futura', lora;
-    box-sizing: border-box;
-}
-
-body{
-    background: #F6F5F5;
-    color:#2d2e2e;
-}
-
 
 #header{
     width: 100%;
@@ -241,7 +178,7 @@ nav{
 
 .logo{
     position: relative;
-    width: 80px;
+    width: 40px;
 }
 
 nav a {
@@ -295,9 +232,9 @@ nav ul li a .nav-link::after {
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 20%;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
     padding-left: 5%;
     padding-right: 5%;
@@ -305,7 +242,7 @@ nav ul li a .nav-link::after {
 
 .header-text h1{
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 24px;
     font-family: lora;
     font-weight: lighter;
     transition: transform 0.3s, color 0.3s;
@@ -319,8 +256,8 @@ nav ul li a .nav-link::after {
 }
 
 .header-text h1:hover {
-    transform: scale(1.1); /* Adjust the scale factor as needed */
-    color: #D0948E; /* Change the text color on hover */
+    transform: scale(1.1); 
+    color: #D0948E; 
 }
 
 .header-text h2{
@@ -356,10 +293,10 @@ button:hover{
 }
 
 .container2{
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Horizontally center the box */
-    align-items: center; /* Vertically center the box */
-    height: 80vh; /* Set the coxsntainer height to full viewport height */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
 
 }
 
@@ -386,14 +323,14 @@ button:hover{
     flex-shrink: 0;
     display: block; 
     margin: 0 auto;
-    position: absolute; /* Position the image absolutely within the box */
-    top: 50%; /* Align the top of the image to the center vertically */
+    position: absolute; 
+    top: 50%; 
     transform: translateY(-50%);
-    left: -50px; /* Move the image 10 pixels to the left */
+    left: -50px; 
 }
 
 .box-text {
-    margin-left: 680px; /* Adjust the left margin to create space for the image */
+    margin-left: 680px; 
     display: flex;
     flex-direction: column;
 }
@@ -447,10 +384,10 @@ button1:hover{
 }
 
 .container3{
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Horizontally center the box */
-    align-items: center; /* Vertically center the box */
-    height: 80vh; /* Set the coxsntainer height to full viewport height */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
 }
 
 .box1:hover {
@@ -476,14 +413,14 @@ button1:hover{
     flex-shrink: 0;
     display: block; 
     margin: 0 auto;
-    position: absolute; /* Position the image absolutely within the box */
-    top: 50%; /* Align the top of the image to the center vertically */
+    position: absolute; 
+    top: 50%; 
     transform: translateY(-50%);
-    left: -100px; /* Move the image 10 pixels to the left */
+    left: -100px; 
 }
 
 .box-text1 {
-    margin-left: 680px; /* Adjust the left margin to create space for the image */
+    margin-left: 680px; 
     display: flex;
     flex-direction: column;
 }
@@ -575,14 +512,14 @@ button2:hover{
     flex-shrink: 0;
     display: block; 
     margin: 0 auto;
-    position: absolute; /* Position the image absolutely within the box */
-    top: 50%; /* Align the top of the image to the center vertically */
+    position: absolute; 
+    top: 50%; 
     transform: translateY(-50%);
-    left: -100px; /* Move the image 10 pixels to the left */
+    left: -100px; 
 }
 
 .box-text2 {
-    margin-left: 680px; /* Adjust the left margin to create space for the image */
+    margin-left: 680px; 
     display: flex;
     flex-direction: column;
 }
@@ -648,7 +585,7 @@ p2 {
 .seemore {
     display: block;
     color: #2d2e2e;
-    font-size: 24px; 
+    font-size: 20px; 
     font-family: 'Futura';
 }
 
@@ -680,6 +617,13 @@ p3{
     width: 782px;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+}
+
 .footer img {
     width: 20px;
     height: 20px;
@@ -706,7 +650,6 @@ p3{
 
 .footer-image {
     float: right;
-    margin-top: -253px; 
 }
 
 #content-wrapper {
@@ -791,7 +734,7 @@ p3{
 #aboutbody img {
     max-width: 414.736px;
     max-height: 515.908px;
-    margin-right: 20px; /* Adjust the margin to create spacing between images */
+    margin-right: 20px; 
 }
   
 .content-row {
@@ -849,6 +792,6 @@ p3{
 }
 
 .hover-effect:hover {
-    transform: translateY(-3px); /* Move the image up by 3 pixels on hover */
-    filter: brightness(1.2); /* Increase brightness on hover */
+    transform: translateY(-3px); 
+    filter: brightness(1.2); 
 }
