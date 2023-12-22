@@ -744,3 +744,58 @@ p3{
     transform: translateY(-3px); 
     filter: brightness(1.2); 
 }
+
+/* about */
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+/* About Me 
+---------------------*/
+.about-text h3 {
+    font-size: 60px;
+    font-family: lora;
+    font-weight: lighter;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.about-text h3:hover {
+    transform: scale(1.1); 
+    color: #D0948E; 
+}
+
+@media (max-width: 767px) {
+
+}
+.about-text p {
+    font-size: 24px;
+    word-wrap: break-word;
+    margin: 0 0 3px;
+    color: #2d2e2e;
+}
+.about-text p mark {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #D0948E;
+}
+
+.about-text2 p {
+    font-size: 20px;
+    word-wrap: break-word;
+    margin: 0 0 3px;
+    color: #2d2e2e;
+}
+
+@media (max-width: 991px) {
+  .about-avatar {
+    margin-top: 10%;
+  }
+}
