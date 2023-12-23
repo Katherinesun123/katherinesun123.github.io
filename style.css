@@ -177,9 +177,8 @@ nav ul li a .nav-link::after {
 } */
 
 .poolup {
-    background-image: linear-gradient(45deg, rgb(206, 143, 157) 0%, rgb(223, 171, 183) 0%, #EDD5D1 35.50%, #fde7ce 100%);
-    background-size: 200%;
-    animation: bg-animation 5s infinite alternate;
+    background-image: linear-gradient(45deg, rgb(206, 143, 157) 0%, rgb(223, 171, 183) 25%, #EDD5D1 50%, #fde7ce 75%, #fecdb3 100%);    background-size: 200%;
+    animation: bg-animation 4s infinite alternate;
     /* background-position: left; */
 }
 
@@ -191,21 +190,19 @@ nav ul li a .nav-link::after {
     /* transition: background-position 1s; */
 
 .mobile-order-buddy {
-    background: linear-gradient(45deg, #6daadf 0%, #C6DAEC 0%, #ded1f1 35.50%,rgb(218, 236, 245) 100%);   
+    background: linear-gradient(45deg, #6daadf 0%, #C6DAEC 25%, #ded1f1 50%, rgb(218, 236, 245) 75%, #fde7ce 100%);
     background-size: 200%;
-    animation: bg-animation 5s infinite alternate;
+    animation: bg-animation 4s infinite alternate;
 }
 
+
 @keyframes bg-animation {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
 }
 
 .box{
@@ -586,8 +583,8 @@ p3{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 2%;
     margin-left: 80px;
 }
 
@@ -621,6 +618,7 @@ img {
 
 .about-text h3 {
     font-size: 60px;
+    text-decoration: none;
     font-family: lora;
     font-weight: lighter;
     transition: transform 0.3s, color 0.3s;
