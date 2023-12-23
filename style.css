@@ -32,104 +32,6 @@ body {
     transform: scale(1.08); 
 }
 
-/* @media screen and (max-width: 600px) {
-
-    #header {
-        height: 70vh;
-    }
-
-    .container {
-        padding: 5px 5%;
-    }
-
-    nav {
-        padding: 10px 5%;
-    }
-
-    .logo{
-        position: relative;
-        width: 20px !important;
-    }    
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        background-color: #f6f5f5;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        display: none;
-    }
-
-    nav ul.show {
-        display: flex;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .header-text {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        font-size: 20px;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .header-text h1 {
-        font-size: 36px;
-        line-height: 50px;
-        margin-top: 10px;
-    }
-
-    .header-text h2 {
-        font-size: 12px;
-        margin-bottom: 30px;
-    }
-
-    button,
-    button1,
-    button2,
-    button3 {
-        margin-left: 0;
-    }
-
-    .footer img {
-        margin-left: 0;
-    }
-
-    #aboutbody {
-        margin-top: 100px;
-    }
-
-    #aboutbody img {
-        max-width: 100%;
-        margin-right: 0;
-    }
-
-    .content-row {
-        flex-wrap: wrap;
-    }
-
-    .content-col {
-        flex: 100%;
-    }
-
-    #aboutbody h1 {
-        margin-left: 0;
-    }
-
-    .seemore-container {
-        margin-top: 20px;
-    }
-
-} */
-
-/* @media screen and (min-width: 769) {
-} */
-
 #header{
     width: 100%;
     height: auto;
@@ -191,10 +93,6 @@ nav ul li a{
     position: relative;
     border-bottom: 1px solid transparent;
 }
-
-/* nav ul li a:hover{
-    border-color: #D0948E;
-} */
 
 nav ul li a:hover::after{
     width: 100%;
@@ -262,27 +160,6 @@ nav ul li a .nav-link::after {
     margin-bottom: 5%;
 }
 
-button{
-    border-radius: 30px;
-    border: 1.5px solid #2D2E2E;
-    color: #2d2e2e;
-    display: inline-flex;
-    padding: 20px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-family: "Futura", lora;
-    font-size: 20px;
-    transition: box-shadow 0.3s ease;
-}
-
-button:hover{
-    background-color: #585858;
-    color: white;
-    border: #585858;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .container2{
     display: flex; 
     justify-content: center; 
@@ -294,18 +171,18 @@ button:hover{
     margin-top: 7.5%;
 }
 
-.box:hover {
+/* .box:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+} */
 
 .box{
     display: inline-block;
     align-items: center;
     justify-content: center;
-    width: 90vw;
-    height: 50vw;
-    border-radius: 60px;
+    width: 78vw;
+    height: 38vw;
+    border-radius: 30px;
     position: relative;
     transition: 0.25s;
 }
@@ -319,7 +196,7 @@ button:hover{
 }
 
 .box img{
-    width: 55vw;
+    width: 43vw;
     height: auto;
     flex-shrink: 0;
     display: block; 
@@ -330,6 +207,11 @@ button:hover{
     left: -4%; 
 }
 
+.box img:hover{
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow properties as needed */
+}
+
 .box-text {
     margin-left: 60%; 
     display: flex;
@@ -337,17 +219,23 @@ button:hover{
 }
 
 .box-text h3 {
+    text-decoration: none;
     margin-bottom: 2%;
+    color: #2D2E2E;
     font-family: lora;
-    font-size: 5vw;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 16%;
+    margin-top: 25%;
+}
+
+.box-text h3:hover {
+    color: #D0948E;
 }
 
 .box-text p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     line-height: 1.6;
     color: #504e4e;
     font-weight:100;
@@ -356,31 +244,13 @@ button:hover{
 }
 
 .box-text p1 {
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: lighter;
+    word-wrap: break-word;
     line-height: normal;
     margin-left: 1%;
-    width: 30vw;
-}
-
-button1{
-    display: inline-flex;
-    padding: 2% 6%;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 30px;
-    border: 2.5px solid #2D2E2E;
-    margin-left: 60%;
-    margin-top: 2%;
-    font-size: 2vw;
-}
-
-button1:hover{
-    background-color: #585858;
-    color: white;
-    border: #585858;
+    width: 20vw;
 }
 
 .box-text1 {
@@ -416,25 +286,6 @@ button1:hover{
     line-height: normal;
     margin-left: 3px;
     width: 389px;
-}
-
-button2{
-    display: inline-flex;
-    padding: 20px 60px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 30px;
-    border: 2.5px solid #2D2E2E;
-    margin-left: 680px;
-    margin-top: 60px;
-    font-size: 20px;
-}
-
-button2:hover{
-    background-color: #585858;
-    color: white;
-    border: #585858;
 }
 
 .container4{
@@ -486,24 +337,6 @@ button2:hover{
     line-height: normal;
     margin-left: 3px;
     width: 389px;
-}
-
-button3{
-    display: inline-flex;
-    padding: 20px 60px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 30px;
-    border: 2.5px solid #2D2E2E;
-    margin-left: 680px;
-    font-size: 20px;
-}
-
-button3:hover{
-    background-color: #585858;
-    color: white;
-    border: #585858;
 }
 
 p2 {
@@ -747,19 +580,18 @@ p3{
 
 /* about */
 .section {
-    padding: 100px 0;
+    margin-top: 5%;
     position: relative;
+    margin-bottom: 10%;
 }
 
 img {
     max-width: 100%;
-}
-img {
+    margin-bottom: 2%;
     vertical-align: middle;
     border-style: none;
 }
-/* About Me 
----------------------*/
+
 .about-text h3 {
     font-size: 60px;
     font-family: lora;
@@ -778,20 +610,23 @@ img {
 .about-text p {
     font-size: 24px;
     word-wrap: break-word;
-    margin: 0 0 3px;
     color: #2d2e2e;
 }
 .about-text p mark {
-  font-weight: bold;
-  text-decoration: underline;
+  font-weight: 400;
   color: #D0948E;
+  background: transparent;
 }
 
 .about-text2 p {
     font-size: 20px;
     word-wrap: break-word;
-    margin: 0 0 3px;
     color: #2d2e2e;
+}
+
+.about-text2 p mark {
+    color: #D0948E;
+    background: transparent;
 }
 
 @media (max-width: 991px) {
