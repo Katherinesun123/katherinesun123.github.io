@@ -176,6 +176,28 @@ nav ul li a .nav-link::after {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 } */
 
+.poolup {
+    background: linear-gradient(90deg, #E5C7CE 0%, #EDD5D1 35.50%, #F3DED3 100%);
+    animation: gradient 15s ease infinite;
+}
+
+.mobile-order-buddy {
+    background: linear-gradient(90deg, #C6DAEC 0%, #DDD2DF 100%);   
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .box{
     display: inline-block;
     align-items: center;
@@ -187,14 +209,6 @@ nav ul li a .nav-link::after {
     transition: 0.25s;
 }
 
-.poolup {
-    background: linear-gradient(90deg, #E5C7CE 0%, #EDD5D1 35.50%, #F3DED3 100%);
-}
-
-.mobile-order-buddy {
-    background: linear-gradient(90deg, #C6DAEC 0%, #DDD2DF 100%);   
-}
-
 .box img{
     width: 43vw;
     height: auto;
@@ -202,15 +216,13 @@ nav ul li a .nav-link::after {
     display: block; 
     margin: 0 auto;
     position: absolute; 
-    top: 43%; 
-    transform: translateY(-50%);
+    top: 15%; 
+    transition: transform 0.3s;
     left: -4%; 
 }
 
 .box img:hover{
-    transform: scale(1.05); /* Adjust the scale factor as needed */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow properties as needed */
-}
+    transform: translateY(5%) scale(1.05);}
 
 .box-text {
     margin-left: 60%; 
@@ -232,6 +244,7 @@ nav ul li a .nav-link::after {
 
 .box-text h3:hover {
     color: #D0948E;
+    text-decoration: underline;
 }
 
 .box-text p {
