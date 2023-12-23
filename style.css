@@ -240,6 +240,10 @@ nav ul li a .nav-link::after {
     flex-direction: column;
 }
 
+.box-text a{
+    text-decoration: none;
+}
+
 .box-text h3 {
     text-decoration: none;
     margin-bottom: 2%;
