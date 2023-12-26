@@ -123,7 +123,7 @@ nav ul li a .nav-link::after {
 
 .header-text{
     margin-top: 10%;
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
     font-size: 20px;
     font-weight: lighter;
     padding-left: 5%;
@@ -168,7 +168,7 @@ nav ul li a .nav-link::after {
     margin-right: auto;
     height: 50vw; 
     width: 90vw;
-    margin-top: 7.5%;
+    margin-top: 5%;
 }
 
 /* .box:hover {
