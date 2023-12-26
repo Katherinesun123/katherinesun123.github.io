@@ -190,7 +190,7 @@ nav ul li a .nav-link::after {
     /* transition: background-position 1s; */
 
 .mobile-order-buddy {
-    background: linear-gradient(45deg, #6daadf 0%, #C6DAEC 25%, #ded1f1 50%, rgb(218, 236, 245) 75%, #fde7ce 100%);
+    background: linear-gradient(45deg, #6daadf 0%, #C6DAEC 25%, #ded1f1 50%, rgb(218, 236, 245) 75%, rgb(255, 233, 251) 100%);
     background-size: 200%;
     animation: bg-animation 4s infinite alternate;
 }
