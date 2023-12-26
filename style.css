@@ -413,14 +413,29 @@ p3{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 300px;
+    height: 30%;
 }
 
 .footer img {
-    width: 20px;
-    height: 20px;
+    width: 4vw;
     padding-left: 80px;
     transition: transform 0.3s ease-in-out, filter 0.3s;
+}
+
+.mb-4{
+    font-size: 2vw;
+}
+/* FOOTER MOBILE */
+@media (max-width: 576px) {
+    .mb-4{
+        font-size: 4vw;
+    }
+
+    .footer img {
+        size: 20%;
+        padding-left: 80px;
+        transition: transform 0.3s ease-in-out, filter 0.3s;
+    }
 }
 
 .footer-image:hover {
@@ -611,7 +626,7 @@ p3{
 
 img {
     max-width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 10%;
     vertical-align: middle;
     border-style: none;
 }
@@ -637,6 +652,7 @@ img {
     word-wrap: break-word;
     color: #2d2e2e;
 }
+
 .about-text p mark {
   font-weight: 400;
   color: #D0948E;
@@ -646,6 +662,8 @@ img {
 .about-text2 p {
     font-size: 20px;
     word-wrap: break-word;
+    margin-top: 5%;
+    margin-bottom: 5%;
     color: #2d2e2e;
 }
 
@@ -654,8 +672,6 @@ img {
     background: transparent;
 }
 
-@media (max-width: 991px) {
-  .about-avatar {
-    margin-top: 10%;
-  }
+.about-avatar{
+    margin-top: 5%;
 }
