@@ -5,8 +5,8 @@
 }
 
 body {
-    background: #f2f2f2;
-    color: #2d2e2e;
+    background: #2d2e2e;
+    color: #f2f2f2;
     justify-content: center;
     align-items: center;
 }
@@ -51,7 +51,7 @@ nav{
     padding: 10px 30px;
     position: fixed;
     top: 0;
-    background-color: #f6f5f5;
+    background-color: #2d2e2e;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
@@ -151,7 +151,7 @@ nav ul li a .nav-link::after {
 }
 
 .header-text h2{
-    color: #2D2E2E;
+    color: #f2f2f2;
     font-family: Futura;
     font-size: 24px;
     font-style: normal;
@@ -244,7 +244,7 @@ nav ul li a .nav-link::after {
 .box-text h3 {
     text-decoration: none;
     margin-bottom: 2%;
-    color: #2D2E2E;
+    color: #2d2e2e;
     font-family: lora;
     font-size: 3vw;
     font-style: normal;
@@ -274,6 +274,7 @@ nav ul li a .nav-link::after {
     word-wrap: break-word;
     line-height: normal;
     margin-left: 1%;
+    color: #2D2E2E;
     width: 20vw;
 }
 
@@ -376,7 +377,7 @@ p2 {
 
 .seemore {
     display: block;
-    color: #2d2e2e;
+    color: #f2f2f2;
     font-size: 20px; 
     font-family: 'Futura';
 }
@@ -388,7 +389,7 @@ p2 {
 
 .enter{
     display: block;
-    color: #2d2e2e;
+    color: #f2f2f2;
     margin-top: 5%;
     font-size: 20px; 
     font-family: 'Futura';
@@ -413,6 +414,7 @@ p3{
     position: absolute;
     bottom: 0;
     width: 100%;
+    color: #2d2e2e;
     height: 30%;
 }
 
@@ -424,6 +426,7 @@ p3{
 
 .mb-4{
     font-size: 2vw;
+    color: #2d2e2e;
 }
 /* FOOTER MOBILE */
 @media (max-width: 576px) {
@@ -515,7 +518,7 @@ p3{
 }
 
 .text p {
-    color: #2D2E2E;
+    color: #f2f2f2;
     font-family: Futura;
     font-size: 20px;
     font-style: normal;
@@ -558,7 +561,7 @@ p3{
 }
   
 #aboutbody h1 {
-    color: #2D2E2E;
+    color: #f2f2f2;
     font-family: Lora;
     font-size: 48px;
     font-style: normal;
@@ -591,7 +594,7 @@ p3{
 }
 
 #title h1{
-    color: #2D2E2E;
+    color: #f2f2f2;
     font-family: Lora;
     word-wrap: break-word;
     font-size: 4vh;
@@ -650,7 +653,7 @@ img {
 .about-text p {
     font-size: 24px;
     word-wrap: break-word;
-    color: #2d2e2e;
+    color: #f2f2f2;
 }
 
 .about-text p mark {
@@ -664,7 +667,7 @@ img {
     word-wrap: break-word;
     margin-top: 5%;
     margin-bottom: 5%;
-    color: #2d2e2e;
+    color: #f2f2f2;
 }
 
 .about-text2 p mark {
